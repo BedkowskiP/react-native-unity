@@ -158,4 +158,4 @@ npx react-native run-android && npx react-native start
 ```
 
 
-[^1]: I'm not sure if x86(Chrome OS) and x86-64(Chrome OS) is required.
+[^1]: I'm not sure if x86(Chrome OS) and x86-64(Chrome OS) are required.
