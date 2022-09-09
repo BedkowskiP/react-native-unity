@@ -107,6 +107,8 @@ public class ButtonBehavior : MonoBehaviour
 
 ### Usage
 ## Sample Code
+
+**Must be used inside `*.tsx` file**
 ```
 import React, { useRef, useEffect } from 'react';
 
