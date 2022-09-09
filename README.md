@@ -23,7 +23,7 @@ or
 
 yarn add @azesmway/react-native-unity
 ```
-### Android
+## Android
 
 1. Inside `android/` create `local.properties` file with the following line inside:
 
@@ -56,7 +56,7 @@ unityStreamingAssets=.unity3d
 6. Inside project root folder create folders `unity/builds`.
 
 
-### Unity - project settings
+## Unity - project settings
 1. Add this code in Unity:
 ```
 using System;
@@ -105,8 +105,8 @@ public class ButtonBehavior : MonoBehaviour
 4. Export project to `unity/builds/android`.
 5. After export remove `<intent-filter>...</intent-filter>` from `<project_name>/unity/builds/android/unityLibrary/src/main/AndroidManifest.xml` at unityLibrary to leave only integrated version.
 
-### Usage
-## Sample Code
+## Usage
+### Sample Code
 
 **Must be used inside `*.tsx` file**
 ```
