@@ -158,4 +158,4 @@ npx react-native run-android && npx react-native start
 ```
 
 
-[^1]: I'm not sure if x86(Chrome OS) and x86-64(Chrome OS) are required.
+[^1]: ~~I'm not sure if x86(Chrome OS) and x86-64(Chrome OS) are required.~~ It's is required to check while using Pixel 2 Android API 33 Google Play | x84_64 otherwise you will get 'libmain.so' error.
